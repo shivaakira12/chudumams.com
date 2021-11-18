@@ -240,8 +240,8 @@ margin: 0px 30px;
 		top:82px;
 	}
 	.container-heading h1{
-		font-size: 40px;
-		font-weight: normal;
+		font-size: 160px;
+		font-weight: 800;
 	}
 	.movies-holder{
 	
@@ -374,14 +374,17 @@ margin: 0px 30px;
 		margin-left: -0px;
 	}
 	.container-heading h1{
-		font-size: 30px;
-		font-weight: normal;
+		font-size: 50px;
+		font-weight: 800;
 		color: orange;
 		padding: 10px;
 	}
 	.container-heading p{
 		font-size: 15px;
 		padding: 10px;
+		line-height: normal;
+		word-wrap: nowrap;
+		margin: 0px 10px;
 		
 	}
 	.movies-holder{
@@ -439,20 +442,26 @@ margin: 0px 30px;
 		margin: 0px 0px;
 		width: 100%;
 	}
+	.main-container{
+		margin-top: 40px;
+	}
+
 	header .logo{
 		font-size: 27px;
 		padding: 0px;
 		margin-left: -0px;
 	}
 	.container-heading h1{
-		font-size: 30px;
-		font-weight: normal;
+		font-size: 40px;
+		font-weight:800;
 		color: orange;
 		padding: 10px;
 	}
 	.container-heading p{
 		font-size: 15px;
 		padding: 10px;
+		margin: 0px 30px;
+		line-height: normal;
 		
 	}
 	.movies-holder{
@@ -617,6 +626,13 @@ margin: 0px 30px;
 		padding: 0px;
 		margin: 0px 0px;
 		width: 100%;
+	}
+	.main-container {
+		margin-top: 40px;
+	}
+	.main-container p{
+		line-height: normal;
+		word-wrap: normal;
 	}
 	header .logo{
 		font-size: 25px;
