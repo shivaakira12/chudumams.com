@@ -25,12 +25,12 @@ header .logo{
 	padding: 30px;
 }
 header .logo a{
-	color:rgb(141, 141, 141);;
+	color:#e5e5e5;
 	letter-spacing: 2px;
 	font-weight: 900;
 }
 header .logo a span{
-	color: teal;
+	color: orange;
 	font-weight: 900;
 }
 header .nav-bar{
@@ -47,7 +47,7 @@ header .nav-bar ul{
 	margin: 0px 150px;
 }
 header .nav-bar ul a{
-	color:rgb(141, 141, 141);
+	color:#e5e5e5;
 	padding: 10px;
 	font-weight: bolder;
 }
@@ -56,11 +56,11 @@ header .nav-bar ul a{
 	outline: none;
 	border: none;
 	border-radius: 10px;
-	background-color: rgb(141, 141, 141);;
+	background-color: #e5e5e5;
 }
 .search-form i{
 	position: absolute;
-	background-color: teal;
+	background-color: orange;
 	border-radius: 10px;
 	padding: 10px;
 }
@@ -74,7 +74,7 @@ header .nav-bar ul a{
 }
 .bar{
 	display: block;
-	background-color:teal;
+	background-color:orange;
 	height: 3px;
 	margin: 5px auto;
 	width: 25px;
@@ -86,7 +86,7 @@ header .nav-bar ul a{
 	padding: 40px;
 }
 .contact-container h1{
-	color:rgb(141, 141, 141);
+	color:#e5e5e5
 
 }
 .form{
@@ -109,7 +109,7 @@ header .nav-bar ul a{
 	margin-top: 20px;
 }
 .btn a{
-	background-color: teal;
+	background-color: orange;
 	padding: 10px 20px;
 	color: #e5e5e5;
 }
@@ -124,7 +124,7 @@ header .nav-bar ul a{
 	text-align: center;
 }
 .footer-holder span{
-	color: teal;
+	color: orange;
 	font-weight: bolder;
 }
 
@@ -156,7 +156,7 @@ header .nav-bar ul a{
 		top: -100%;
 		gap: 0;
 		flex-direction: column;
-		background-color:teal;
+		background-color:orange;
 		width: 100%;
 		transition: 500ms ease-in-out;
 	}
@@ -212,7 +212,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 100px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -248,7 +248,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 80px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -305,7 +305,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 80px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -328,7 +328,7 @@ header .nav-bar ul a{
 	}
 	.container-heading h1{
 		font-size: 35px;
-		color: teal;
+		color: orange;
 		font-weight: normal;
 	}
 	header .logo{
@@ -358,7 +358,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 80px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -387,7 +387,7 @@ header .nav-bar ul a{
 	.container-heading h1{
 		font-size: 33px;
 		font-weight: normal;
-		color: teal;
+		color: orange;
 	}
 	.container-heading p{
 		font-size: 15px;padding: 10px;
@@ -410,7 +410,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 40px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -439,7 +439,7 @@ header .nav-bar ul a{
 	.container-heading h1{
 		font-size: 30px;
 		font-weight: normal;
-		color: teal;
+		color: orange;
 		padding: 10px;
 	}
 	.container-heading p{
@@ -464,7 +464,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 40px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -499,7 +499,7 @@ header .nav-bar ul a{
 	}
 	.container-heading h1{
 		font-size: 26px;
-		color: teal;
+		color: orange;
 	}
 	.movies-holder{
 		grid-template-columns: repeat(2,10fr);
@@ -531,7 +531,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 40px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -565,7 +565,7 @@ header .nav-bar ul a{
 	}
 	.container-heading h1{
 		font-size: 28px;
-		color: teal;
+		color: orange;
 	}
 	.movies-holder{
 		grid-template-columns: repeat(2,10fr);
@@ -580,7 +580,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 30px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e5e5e5
 	}
 	.inside-shiva{
 		padding: 20px;

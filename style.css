@@ -11,7 +11,7 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color:black;
+	background-color:#101820FF;
 }
 header{
 	display: flex;
@@ -25,12 +25,12 @@ header .logo{
 	padding: 30px;
 }
 header .logo a{
-	color:rgb(141, 141, 141);
+	color: #e2e5de;
 	letter-spacing: 2px;
 	font-weight: 900;
 }
 header .logo a span{
-	color: teal;
+	color: orange;
 	font-weight: 900;
 }
 header .nav-bar{
@@ -38,16 +38,15 @@ header .nav-bar{
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 24px;
-	margin: 0px 20px;
 }
 header .nav-bar ul{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0px 150px;
+	margin: 0px 180px;
 }
 header .nav-bar ul a{
-	color:rgb(141, 141, 141);
+	color: #e2e5de;
 	padding: 10px;
 	font-weight: bolder;
 }
@@ -56,11 +55,11 @@ header .nav-bar ul a{
 	outline: none;
 	border: none;
 	border-radius: 10px;
-	background-color: rgb(141, 141, 141);
+	background-color:  #e2e5de;
 }
 .search-form i{
 	position: absolute;
-	background-color: teal;
+	background-color: orange;
 	border-radius: 10px;
 	padding: 10px;
 }
@@ -74,7 +73,7 @@ header .nav-bar ul a{
 }
 .bar{
 	display: block;
-	background-color:teal;
+	background-color:orange;
 	height: 3px;
 	margin: 5px auto;
 	width: 25px;
@@ -86,27 +85,26 @@ header .nav-bar ul a{
 	margin-top: 100px;
 }
 .container-heading{
-	color:rgb(141, 141, 141);
+	color: #e2e5de;
 	line-height: 2;
 }
 .container-heading h1{
 	font-size: 50px;
-	font-weight: normal;
-	color: teal;
+	font-weight: 700;
+	color: orange;
 }
 .movies-container{
 	margin-top: 100px;
 }
 .movies-holder{
+	margin: 0px 30px;
 	display: grid;
 	grid-template-columns: repeat(6,10fr);
-	padding: 30px;
-	gap: 10px;
+	padding: 60px;
 }
 .movies-content img{
 	height: 250px;
 	margin-top: 20px;
-	border-radius: 10px;
     transition: all 500ms ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	
@@ -120,23 +118,26 @@ header .nav-bar ul a{
 	color: #e5e5e5;
 	text-align: center;
 }
+.shivaakira{
+padding: 40px;
+margin: 0px 30px;
+}
 .inside-shiva{
-	padding: 30px;
+	padding: 40px;
 	border: 1px solid gray;
-	margin: 40px;
 	line-height: 2.5;
 	color: #e5e5e5;
 	text-align: center;
 }
 .inside-shiva input{
-	padding: 10px 100px;
+	padding: 10px 120px;
 	outline: none;
 	border: none;
 	border-radius: 10px;
-	background-color: rgb(141, 141, 141);
+	background-color: #e2e5de;
 }
 .inside-shiva i{
-	background-color: teal;
+	background-color: orange;
 	padding: 10px;
 	margin-top: 2px;
 	border-radius: 10px;
@@ -146,7 +147,8 @@ header .nav-bar ul a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px;
+	padding: 40px;
+	margin: 0px 30px;
 	gap: 20px;
 }
 .upcoming-content h3{
@@ -172,7 +174,7 @@ header .nav-bar ul a{
 	text-align: center;
 }
 .footer-holder span{
-	color: teal;
+	color: orange;
 	font-weight: bolder;
 }
 .gotopbtn{
@@ -185,7 +187,7 @@ header .nav-bar ul a{
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
-	color: teal;
+	color: orange;
 	font-size: 24px;
   }
 @media(max-width:768px){
@@ -216,7 +218,7 @@ header .nav-bar ul a{
 		top: -100%;
 		gap: 0;
 		flex-direction: column;
-		background-color:teal;
+		background-color:orange;
 		width: 100%;
 		transition: 500ms ease-in-out;
 	}
@@ -256,7 +258,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 100px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -303,7 +305,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 100px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -339,7 +341,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 80px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -396,7 +398,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 80px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -419,7 +421,7 @@ header .nav-bar ul a{
 	}
 	.container-heading h1{
 		font-size: 35px;
-		color: teal;
+		color: orange;
 		font-weight: normal;
 	}
 	header .logo{
@@ -449,7 +451,7 @@ header .nav-bar ul a{
 	.inside-shiva input{
 		margin-top: 20px;
 		padding: 10px 80px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 10px;
@@ -478,7 +480,7 @@ header .nav-bar ul a{
 	.container-heading h1{
 		font-size: 33px;
 		font-weight: normal;
-		color: teal;
+		color: orange;
 	}
 	.container-heading p{
 		font-size: 15px;padding: 10px;
@@ -501,7 +503,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 40px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -530,7 +532,7 @@ header .nav-bar ul a{
 	.container-heading h1{
 		font-size: 30px;
 		font-weight: normal;
-		color: teal;
+		color: orange;
 		padding: 10px;
 	}
 	.container-heading p{
@@ -555,7 +557,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 60px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -590,7 +592,7 @@ header .nav-bar ul a{
 	}
 	.container-heading h1{
 		font-size: 26px;
-		color: teal;
+		color: orange;
 	}
 	.movies-holder{
 		grid-template-columns: repeat(2,10fr);
@@ -622,7 +624,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 40px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -656,7 +658,7 @@ header .nav-bar ul a{
 	}
 	.container-heading h1{
 		font-size: 28px;
-		color: teal;
+		color: orange;
 	}
 	.movies-holder{
 		grid-template-columns: repeat(2,10fr);
@@ -671,7 +673,7 @@ header .nav-bar ul a{
 	}
 	.inside-shiva input{
 		padding: 10px 30px;
-		background-color: rgb(141, 141, 141);
+		background-color: #e2e5de;
 	}
 	.inside-shiva{
 		padding: 20px;
