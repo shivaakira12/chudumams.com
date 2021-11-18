@@ -347,7 +347,59 @@ margin-left: 40px;
 		
 	}
 }
-
+@media(max-width:601px){
+	.hamburger{
+		margin-left:290px;
+	}
+	header .logo{
+		font-size: 28px;
+		margin-left: -0px;
+		padding: 0px;
+		font-weight: 900;
+	}
+	.one{
+		padding: 0px 0px;
+		margin-top: 20px;
+	}
+	.one-content{
+		padding: 40px;
+	}
+	.one-content img{
+		height: 330px;
+		width: 300px;
+	}
+	.m{
+		line-height: 2.5;
+		margin-top: 24px;
+		padding: 0px 20px;
+	}
+	.m i{
+		color: orange;
+	}
+	.m h1{
+		font-size: 35px;
+		color: orange;
+		
+	}
+	.btn2{
+		margin-top: -19px;
+	margin-left: 40px;
+	
+	}
+	.btn1{
+		margin-top: 10px;
+		margin-left: 180px;
+	}
+	.video-content{
+		padding: 10px;
+		margin-top: 150px;
+	}
+	.video{
+		border: none;
+		margin: 25px;
+		
+	}
+}
 @media(max-width:480px){
 	.hamburger{
 		margin-left: 220px;
