@@ -206,75 +206,212 @@ margin-left: 40px;
 		top:82px;
 	}
 	.one{
-		padding: 0px 20px;
-		margin-top: 60px;
+		padding: 20px 40px;
+		margin-top: 20px;
+	}
+	.one-content{
+		padding: 20px;
 	}
 	.one-content img{
-		height: 320px;
+		height: 340px;
+		width: 300px;
 	}
 	.m{
 		line-height: 3;
-		padding: 0px 20px;
+		margin-top: 0px;
+		padding: 20px 40px;
 	}
-	.m p{
-		font-size: 20px;
+	.m i{
+		color: orange;
 	}
 	.m h1{
-		font-size: 28px;
-		margin-top: -30px;
+		font-size: 30px;
+		color: orange;
+		
+	}
+	.btn2{
+		margin-top: -19px;
+	margin-left: 20px;
+	
+	}
+	.btn1{
+		margin-top: 10px;
+		margin-left: 150px;
+	}
+	.video-content{
+		padding: 10px;
+		margin-top: 150px;
 	}
 	.video{
 		border: none;
 		margin: 25px;
-		margin-top: 120px;
+		
 	}
-	.btn1{
-		margin-top: 40px;
-		margin-left: 10px;
-	}
-	.btn2{
-		margin-top: -19.5px;
-	margin-left: 170px;
-	
-	}
-	
 }
+
 @media(max-width:480px){
 	.hamburger{
-		margin-left: 230px;
+		margin-left: 220px;
 	}
 	header .logo{
-		font-size: 27px;
+		font-size: 25px;
+		margin-left: -20px;
 		padding: 0px;
-		margin-left: -30px;
+		font-weight: 900;
 	}
 	.one{
-		padding: 0px 20px;
-		margin-top: 60px;
+		padding: 0px 0px;
+		margin-top: 20px;
+	}
+	.one-content{
+		padding: 20px;
 	}
 	.one-content img{
-		height: 270px;
+		height: 290px;
+		width: 290px;
 	}
 	.m{
 		line-height: 2;
-		padding: 0px 20px;
+		margin-top: 20px;
+		padding: 0px 10px;
 	}
-	.m p{
-		font-size: 18px;
+	.m i{
+		color: orange;
 	}
 	.m h1{
-		font-size: 20px;
-		margin-top: -10px;
+		font-size: 22px;
+		color: orange;
+		
+	}
+	.btn2{
+		margin-top: -19px;
+	margin-left: 20px;
+	
+	}
+	.btn1{
+		margin-top: 10px;
+		margin-left: 150px;
+	}
+	.video-content{
+		padding: 10px;
+		margin-top: 150px;
 	}
 	.video{
 		border: none;
 		margin: 25px;
-		margin-top: 120px;
-	}	
+		
+	}
 }
-@media(max-width:426px){
+
+@media(max-width:450px){
 	.hamburger{
-		margin-left: 180px;
+		margin-left: 160px;
+	}
+	header .logo{
+		font-size: 25px;
+		margin-left: -20px;
+		padding: 0px;
+		font-weight: 900;
+	}
+	.one{
+		padding: 0px 0px;
+		margin-top: 20px;
+	}
+	.one-content{
+		padding: 20px;
+	}
+	.one-content img{
+		height: 260px;
+		width: 260px;
+	}
+	.m{
+		line-height: 2;
+		padding: 0px 10px;
+	}
+	.m i{
+		color: orange;
+	}
+	.m h1{
+		font-size: 22px;
+		color: orange;
+		
+	}
+	.btn2{
+		margin-top: -19px;
+	margin-left: 20px;
+	
+	}
+	.btn1{
+		margin-top: 10px;
+		margin-left: 150px;
+	}
+	.video-content{
+		padding: 10px;
+		margin-top: 150px;
+	}
+	.video{
+		border: none;
+		margin: 25px;
+		
+	}
+}
+
+@media(max-width:414px){
+	.hamburger{
+		margin-left: 160px;
+	}
+	header .logo{
+		font-size: 25px;
+		margin-left: -20px;
+		padding: 0px;
+		font-weight: 900;
+	}
+	.one{
+		padding: 0px 0px;
+		margin-top: 20px;
+	}
+	.one-content{
+		padding: 20px;
+	}
+	.one-content img{
+		height: 240px;
+		width: 240px;
+	}
+	.m{
+		line-height: 2;
+		padding: 0px 10px;
+	}
+	.m i{
+		color: orange;
+	}
+	.m h1{
+		font-size: 22px;
+		color: orange;
+		
+	}
+	.btn2{
+		margin-top: -19px;
+	margin-left: 20px;
+	
+	}
+	.btn1{
+		margin-top: 10px;
+		margin-left: 150px;
+	}
+	.video-content{
+		padding: 10px;
+		margin-top: 150px;
+	}
+	.video{
+		border: none;
+		margin: 25px;
+		
+	}
+}
+
+@media(max-width:375px){
+	.hamburger{
+		margin-left: 120px;
 	}
 	header .logo{
 		font-size: 25px;
@@ -282,45 +419,49 @@ margin-left: 40px;
 		padding: 0px;
 		font-weight: 900;
 	}
+	.m i{
+		color: orange;
+	}
 	.one{
-		padding: 0px 20px;
-		margin-top: 60px;
+		padding: 0px 0px;
+		margin-top: 20px;
+	}
+	.one-content{
+		padding: 20px;
 	}
 	.one-content img{
-		height: 240px;
+		height: 200px;
+		width: 200px;
 	}
 	.m{
 		line-height: 2;
-		padding: 0px 20px;
-	}
-	.m p{
-		font-size: 16px;
+		padding: 0px 10px;
 	}
 	.m h1{
-		font-size: 20px;
-		margin-top: -10px;
+		font-size: 22px;
+		color: orange;
+		
+	}
+	.btn2{
+		margin-top: -19px;
+	margin-left: 20px;
+	
+	}
+	.btn1{
+		margin-top: 10px;
+		margin-left: 150px;
+	}
+	.video-content{
+		padding: 10px;
+		margin-top: 150px;
 	}
 	.video{
 		border: none;
 		margin: 25px;
-		margin-top: 120px;
-	}	
+		
+	}
 }
-@media(max-width:411px){
-	.hamburger{
-		margin-left: 160px;
-	}
-	.movies-content img{
-		height: 220px;
-	}
-	header .logo{
-		margin-left: -20px;
-		font-size: 26px;
-		padding: 0px;
-		font-weight: 900;
-	}
-	
-}
+
 @media(max-width:360px){
 	.hamburger{
 		margin-left: 120px;
@@ -330,6 +471,9 @@ margin-left: 40px;
 		margin-left: -30px;
 		padding: 0px;
 		font-weight: 900;
+	}
+	.m i{
+		color: orange;
 	}
 	.one{
 		padding: 0px 0px;
@@ -356,7 +500,7 @@ margin-left: 40px;
 	
 	}
 	.btn1{
-		margin-top: 0px;
+		margin-top: 10px;
 		margin-left: 150px;
 	}
 	.video-content{

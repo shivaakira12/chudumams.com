@@ -105,7 +105,9 @@ header .nav-bar ul a{
 .movies-content img{
 	height: 250px;
 	margin-top: 20px;
+
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	
 }
 .movies-content h3{
 	color: #e5e5e5;
@@ -430,7 +432,7 @@ margin: 0px 30px;
 }
 @media(max-width:480px){
 	.hamburger{
-		margin-left: 230px;
+		margin-left: 210px;
 	}
 	.shivaakira{
 		padding: 0px;
@@ -440,7 +442,7 @@ margin: 0px 30px;
 	header .logo{
 		font-size: 27px;
 		padding: 0px;
-		margin-left: -30px;
+		margin-left: -0px;
 	}
 	.container-heading h1{
 		font-size: 30px;
@@ -477,7 +479,7 @@ margin: 0px 30px;
 		line-height: 2;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.inside-upcoming{
 		display: grid;
@@ -547,7 +549,7 @@ margin: 0px 30px;
 		line-height: 2;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.inside-upcoming{
 		display: grid;
@@ -593,7 +595,7 @@ margin: 0px 30px;
 		line-height: 2;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.inside-upcoming{
 		display: grid;
@@ -655,7 +657,7 @@ margin: 0px 30px;
 		line-height: 1.5;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.upcoming-content img{
 		height: 240px;
@@ -679,7 +681,7 @@ margin: 0px 30px;
 }
 @media(max-width:375px){
 	.hamburger{
-		margin-left: 120px;
+		margin-left: 140px;
 	}
 	.shivaakira{
 		padding: 0px;
@@ -721,7 +723,7 @@ margin: 0px 30px;
 		line-height: 1.5;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.upcoming-content img{
 		height: 210px;
@@ -789,7 +791,7 @@ margin: 0px 30px;
 		line-height: 1.5;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.upcoming-content img{
 		height: 210px;
