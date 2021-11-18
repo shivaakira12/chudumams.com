@@ -105,9 +105,9 @@ header .nav-bar ul a{
 .movies-content img{
 	height: 250px;
 	margin-top: 20px;
-    transwidth: 100%;ition: all 500ms ease-in-out;
+    width: 100%;
+	transition: all 500ms ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-	
 }
 .movies-content h3{
 	color: #e5e5e5;
