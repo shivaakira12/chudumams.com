@@ -11,7 +11,7 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color:#101820FF;
+	background-color:#000000;
 }
 header{
 	display: flex;
@@ -105,7 +105,7 @@ header .nav-bar ul a{
 .movies-content img{
 	height: 250px;
 	margin-top: 20px;
-    transition: all 500ms ease-in-out;
+    transwidth: 100%;ition: all 500ms ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	
 }
@@ -277,35 +277,75 @@ margin: 0px 30px;
 		gap: 20px;
 	}
 }
-
-@media(max-width:728px){
+@media(max-width:800px){
 	.hamburger{
-		margin-left: 380px;
+		position: relative;
+		display: block;
+		margin-left: 430px;
+	}
+	header{
+		height: 10vh;
+		border-bottom: 1px solid #554f4f;
+	}
+	header .logo{
+		font-size: 30px;
+		padding: 15px;
+	}
+	.hamburger .active .bar:nth-child(2){
+		opacity: 0;
+	}
+	.hamburger .active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}.hamburger .active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.menu{
+		position: fixed;
+		left: -100px;
+		top: -100%;
+		gap: 0;
+		flex-direction: column;
+		background-color:orange;
+		width: 100%;
+		transition: 500ms ease-in-out;
+	}
+	.search-form i{
+		display: none;
+	}
+	.search-form input{
+		display: none;
+	}
+	header .nav-bar ul{
+		margin: 0px 100px;
+	}
+	header .nav-bar ul a{
+	border-bottom: 1px solid gray;
+		color:#e5e5e5;
+		margin: 10px;
+	}
+	.menu.active{
+		top:82px;
 	}
 	.container-heading h1{
-		font-size: 38px;
+		font-size: 40px;
 		font-weight: normal;
 	}
-	.movies-content h3{
-	
-		font-size: 14px;
-	}
-	.container-heading p{
-		font-size: 16px;
-	}
 	.movies-holder{
+	
 		grid-template-columns: repeat(3,10fr);
 		padding: 20px;
-		gap: 10px;
+		gap: 20px;
 	}
 	.movies-content img{
 		height: 280px;
+		border-radius: none;
 	}
 	.upcoming-content img{
 		height: 280px;
 	}
 	.inside-shiva input{
-		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-top: 0px;
 		padding: 10px 100px;
 		background-color: #e2e5de;
 	}
@@ -315,197 +355,59 @@ margin: 0px 30px;
 		line-height: 2;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.inside-upcoming{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 10px;
-		gap: 10px;
-	}
-}
-@media(max-width:676px){
-	.hamburger{
-		margin-left: 330px;
-	}
-	.movies-holder{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 10px;
-		gap: 10px;
-	}
-	.movies-content img{
-		height: 260px;	
-	}
-	.upcoming-content img{
-		height: 260px;
-	}
-	.inside-shiva input{
-		margin-top: 20px;
-		padding: 10px 80px;
-		background-color: #e2e5de;
-	}
-	.inside-shiva{
-		padding: 10px;
-		margin: 10px;
-		line-height: 2;
-	}
-	.inside-shiva i{
-		margin-top: 20px;
-	}
-	.inside-upcoming{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 10px;
-		gap: 10px;
-	}
-}
-@media(max-width:628px){
-	.hamburger{
-		margin-left: 350px;
-	}
-	.movies-holder{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 30px;
-		gap: 20px;
-	}
-	header .logo{
-		font-size: 30px;
-		padding: 0px;
-		margin-left: -30px;
-	}
-	.movies-content img{
-		height: 240px;	
-	}
-	.container-heading h1{
-		font-size: 37px;
-		font-weight: normal;
-	}
-	.container-heading p{
-		font-size: 15px;
-	}
-	.movies-holder{
 		display: grid;
 		grid-template-columns: repeat(3,10fr);
 		padding: 20px;
-		gap: 10px;
+		gap: 20px;
+	}
+}
+@media(max-width:601px){
+	.hamburger{
+		margin-left: 330px;
+	}
+	header .logo{
+		font-size: 27px;
+		padding: 0px;
+		margin-left: -0px;
+	}
+	.container-heading h1{
+		font-size: 30px;
+		font-weight: normal;
+		color: orange;
+		padding: 10px;
+	}
+	.container-heading p{
+		font-size: 15px;
+		padding: 10px;
+		
+	}
+	.movies-holder{
+	
+		grid-template-columns: repeat(3,10fr);
+		padding: 10px;
+		margin: 0px 15px;
+		gap: 5px;
 	}
 	.movies-content img{
-		height: 240px;	
+		height: 250px;
+	}
+	.movies-container{
+		margin-top: 40px;
 	}
 	.upcoming-content img{
 		height: 240px;
 	}
 	.inside-shiva input{
-		margin-top: 20px;
-		padding: 10px 80px;
+		width: 70%;
 		background-color: #e2e5de;
 	}
-	.inside-shiva{
-		padding: 10px;
-		margin: 10px;
-		line-height: 2;
-	}
-	.inside-shiva i{
-		margin-top: 20px;
-	}
-	.inside-upcoming{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 10px;
-		gap: 10px;
-	}
-}
-@media(max-width:572px){
-	.hamburger{
-		margin-left: 320px;
-	}
-	.container-heading h1{
-		font-size: 35px;
-		color: orange;
-		font-weight: normal;
-	}
-	header .logo{
-		font-size: 27px;
+	.shivaakira{
 		padding: 0px;
-		margin-left: -30px;
-	}
-	.container-heading p{
-		font-size: 15px;padding: 15px;
-		line-height: normal;
-	}
-	.container-heading{
-		line-height: normal;
-	}
-	.movies-holder{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 15px;
-		gap: 10px;
-	}
-	.movies-content img{
-		height: 220px;	
-	}
-	.upcoming-content img{
-		height: 200px;
-	}
-	.inside-shiva input{
-		margin-top: 20px;
-		padding: 10px 80px;
-		background-color: #e2e5de;
-	}
-	.inside-shiva{
-		padding: 10px;
-		margin: 10px;
-		line-height: 2;
-	}
-	.inside-shiva i{
-		margin-top: 20px;
-	}
-	.inside-upcoming{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 10px;
-		gap: 10px;
-	}
-}
-@media(max-width:522px){
-	.hamburger{
-		margin-left: 220px;
-	}
-	header .logo{
-		font-size: 33px;
-		padding: 0px;
-		margin-left: -30px;
-	}
-	.container-heading h1{
-		font-size: 33px;
-		font-weight: normal;
-		color: orange;
-	}
-	.container-heading p{
-		font-size: 15px;padding: 10px;
-		line-height: normal;
-	}
-	.movies-holder{
-		display: grid;
-		grid-template-columns: repeat(3,10fr);
-		padding: 10px;
-		gap: 10px;
-	}
-	.movies-content img{
-		height: 200px;
-		border-radius: 10px;
-    transition: all 500ms ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-	}
-	.upcoming-content img{
-		height: 200px;
-	}
-	.inside-shiva input{
-		padding: 10px 40px;
-		background-color: #e2e5de;
+		margin: 0px 0px;
+		width: 100%;
 	}
 	.inside-shiva{
 		padding: 20px;
@@ -513,18 +415,29 @@ margin: 0px 30px;
 		line-height: 2;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.inside-upcoming{
 		display: grid;
 		grid-template-columns: repeat(3,10fr);
 		padding: 10px;
+		margin: 0px 15px;
 		gap: 10px;
 	}
+	.gotopbtn{
+	
+		right: 20px;
+	  }
+
 }
 @media(max-width:480px){
 	.hamburger{
 		margin-left: 230px;
+	}
+	.shivaakira{
+		padding: 0px;
+		margin: 0px 0px;
+		width: 100%;
 	}
 	header .logo{
 		font-size: 27px;
@@ -543,7 +456,6 @@ margin: 0px 30px;
 		
 	}
 	.movies-holder{
-	
 		grid-template-columns: repeat(2,10fr);
 		padding: 40px;
 		gap: 5px;
@@ -586,6 +498,11 @@ margin: 0px 30px;
 	.hamburger{
 		margin-left: 180px;
 	}
+	.shivaakira{
+		padding: 0px;
+		margin: 0px 0px;
+		width: 100%;
+	}
 	header .logo{
 		font-size: 27px;
 		padding: 0px;
@@ -609,6 +526,7 @@ margin: 0px 30px;
 	}
 	.movies-content img{
 		height: 250px;
+		border-radius: none;
 	}
 	.movies-container{
 		margin-top: 40px;
@@ -645,37 +563,15 @@ margin: 0px 30px;
 	
 		right: 20px;
 	  }
-
-}
-@media(max-width:426px){
-	.hamburger{
-		margin-left: 180px;
-	}
-	header .logo{
-		font-size: 25px;
-		margin-left: -30px;
-		padding: 0px;
-		font-weight: 900;
-	}
-	.container-heading h1{
-		font-size: 26px;
-		color: orange;
-	}
-	.movies-holder{
-		grid-template-columns: repeat(2,10fr);
-		padding: 30px;
-		gap: 20px;
-	}
-	.movies-content img{
-		height: 240px;
-	}
-	.movies-container{
-		margin-top: 20px;
-	}
 }
 @media(max-width:411px){
 	.hamburger{
 		margin-left: 160px;
+	}
+	.shivaakira{
+		padding: 0px;
+		margin: 0px 0px;
+		width: 100%;
 	}
 	.movies-content img{
 		height: 220px;
@@ -713,13 +609,18 @@ margin: 0px 30px;
 		right: 30px;
 	  }
 }
-@media(max-width:360px){
+@media(max-width:414px){
 	.hamburger{
-		margin-left: 120px;
+		margin-left: 160px;
+	}
+	.shivaakira{
+		padding: 0px;
+		margin: 0px 0px;
+		width: 100%;
 	}
 	header .logo{
 		font-size: 25px;
-		margin-left: -30px;
+		margin-left: -0px;
 		padding: 0px;
 		font-weight: 900;
 	}
@@ -729,14 +630,88 @@ margin: 0px 30px;
 	}
 	.movies-holder{
 		grid-template-columns: repeat(2,10fr);
-		padding: 15px;
-		gap: 10px;
+		padding: 10px;
+		gap: 4px;
+		margin: 0px 20px;
+	}
+	.movies-content h3{
+		font-size: 12px;
 	}
 	.movies-content img{
-		height: 210px;
+		height: 240px;
 	}
 	.movies-container{
 		margin-top: 20px;
+	}
+	.shivaakira{
+		margin: 0px 4px;
+		padding: 4px;
+	}
+	.inside-shiva input{
+		padding: 10px 30px;
+		background-color: #e2e5de;
+	}
+	.inside-shiva{
+		padding: 10px;
+		margin: 10px;
+		line-height: 1.5;
+	}
+	.inside-shiva i{
+		margin-top: 20px;
+	}
+	.upcoming-content img{
+		height: 240px;
+	}
+	.inside-upcoming{
+		display: grid;
+		grid-template-columns: repeat(2,3fr);
+		align-items: center;
+		padding: 10px;
+		gap: 10px;
+		margin: 0px 15px;
+	}
+	.upcoming-content h3{
+		font-size: 12px;
+	}
+	.gotopbtn{
+	
+		right: 20px;
+	  }
+
+}
+@media(max-width:375px){
+	.hamburger{
+		margin-left: 120px;
+	}
+	.shivaakira{
+		padding: 0px;
+		margin: 0px 0px;
+		width: 100%;
+	}
+	header .logo{
+		font-size: 23px;
+		margin-left: -0px;
+		padding: 0px;
+		font-weight: 900;
+	}
+	.movies-holder{
+		grid-template-columns: repeat(2,10fr);
+		padding: 10px;
+		gap: 4px;
+		margin: 0px 15px;
+	}
+	.movies-content h3{
+		font-size: 12px;
+	}
+	.movies-content img{
+		height: 220px;
+	}
+	.movies-container{
+		margin-top: 20px;
+	}
+	.shivaakira{
+		margin: 0px 4px;
+		padding: 4px;
 	}
 	.inside-shiva input{
 		padding: 10px 30px;
@@ -745,7 +720,7 @@ margin: 0px 30px;
 	.inside-shiva{
 		padding: 20px;
 		margin: 10px;
-		line-height: 2;
+		line-height: 1.5;
 	}
 	.inside-shiva i{
 		margin-top: 20px;
@@ -759,6 +734,10 @@ margin: 0px 30px;
 		align-items: center;
 		padding: 10px;
 		gap: 10px;
+		margin: 0px 10px;
+	}
+	.upcoming-content h3{
+		font-size: 12px;
 	}
 	.gotopbtn{
 	
@@ -766,4 +745,73 @@ margin: 0px 30px;
 	  }
 
 }
+
+
+@media(max-width:360px){
+	.hamburger{
+		margin-left: 120px;
+	}
+	.shivaakira{
+		padding: 0px;
+		margin: 0px 0px;
+		width: 100%;
+	}
+	header .logo{
+		font-size: 23px;
+		margin-left: -0px;
+		padding: 0px;
+		font-weight: 900;
+	}
+	.movies-holder{
+		grid-template-columns: repeat(2,10fr);
+		padding: 10px;
+		gap: 4px;
+		margin: 0px 15px;
+	}
+	.movies-content h3{
+		font-size: 12px;
+	}
+	.movies-content img{
+		height: 210px;
+	}
+	.movies-container{
+		margin-top: 20px;
+	}
+	.shivaakira{
+		margin: 0px 4px;
+		padding: 4px;
+	}
+	.inside-shiva input{
+		padding: 10px 30px;
+		background-color: #e2e5de;
+	}
+	.inside-shiva{
+		padding: 20px;
+		margin: 10px;
+		line-height: 1.5;
+	}
+	.inside-shiva i{
+		margin-top: 20px;
+	}
+	.upcoming-content img{
+		height: 210px;
+	}
+	.inside-upcoming{
+		display: grid;
+		grid-template-columns: repeat(2,3fr);
+		align-items: center;
+		padding: 10px;
+		gap: 10px;
+		margin: 0px 10px;
+	}
+	.upcoming-content h3{
+		font-size: 12px;
+	}
+	.gotopbtn{
+	
+		right: 20px;
+	  }
+
+}
+
 
