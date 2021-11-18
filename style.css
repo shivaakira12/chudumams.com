@@ -179,22 +179,22 @@ margin: 0px 30px;
 }
 .gotopbtn{
 	position: fixed;
-	width: 45px;
-	height: 45px;
+	width: 40px;
+	height: 40px;
 	background: #e5e5e5;
 	bottom: 30px;
-	right: 50px;
+	right: 30px;
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
 	color: orange;
-	font-size: 24px;
+	font-size: 22px;
   }
 @media(max-width:768px){
 	.hamburger{
 		position: relative;
 		display: block;
-		margin-left: 400px;
+		margin-left: 430px;
 	}
 	header{
 		height: 10vh;
@@ -251,12 +251,14 @@ margin: 0px 30px;
 	}
 	.movies-content img{
 		height: 280px;
+		border-radius: none;
 	}
 	.upcoming-content img{
 		height: 280px;
 	}
 	.inside-shiva input{
-		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-top: 0px;
 		padding: 10px 100px;
 		background-color: #e2e5de;
 	}
@@ -266,13 +268,13 @@ margin: 0px 30px;
 		line-height: 2;
 	}
 	.inside-shiva i{
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.inside-upcoming{
 		display: grid;
 		grid-template-columns: repeat(3,10fr);
 		padding: 20px;
-		gap: 10px;
+		gap: 20px;
 	}
 }
 
@@ -573,6 +575,71 @@ margin: 0px 30px;
 		align-items: center;
 		padding: 40px;
 		gap: 20px;
+	}
+	.gotopbtn{
+	
+		right: 20px;
+	  }
+
+}
+@media(max-width:450px){
+	.hamburger{
+		margin-left: 180px;
+	}
+	header .logo{
+		font-size: 27px;
+		padding: 0px;
+		margin-left: -0px;
+	}
+	.container-heading h1{
+		font-size: 30px;
+		font-weight: 700;
+		color: orange;
+		padding: 10px;
+	}
+	.container-heading p{
+		font-size: 15px;
+		padding: 10px;
+		
+	}
+	.movies-holder{
+		grid-template-columns: repeat(2,10fr);
+		padding: 10px;
+		gap: 5px;
+	}
+	.movies-content img{
+		height: 250px;
+	}
+	.movies-container{
+		margin-top: 40px;
+	}
+	.upcoming-content img{
+		height: 250px;
+	}
+	.shivaakira{
+		margin: 0px 4px;
+		padding: 10px;
+	}
+	.inside-shiva input{
+		margin-left: -40px;
+		padding: 10px 70px;
+		background-color: #e2e5de;
+	}
+	.inside-shiva{
+		padding: 10px;
+		margin: 10px;
+		line-height: 2;
+	}
+	.inside-shiva i{
+		margin-top: 20px;
+	}
+	.inside-upcoming{
+		display: grid;
+		grid-template-columns: repeat(2,3fr);
+		align-items: center;
+		padding: 15px;
+		gap: 5px;
+		margin: 0px 15px;
 	}
 	.gotopbtn{
 	
