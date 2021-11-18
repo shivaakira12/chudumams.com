@@ -419,20 +419,23 @@ margin-left: 40px;
 	}
 	.one-content img{
 		height: 290px;
-		width: 290px;
+		width: 240px;
 	}
 	.m{
 		line-height: 2;
-		margin-top: 20px;
+		margin-top:40px;
 		padding: 0px 10px;
 	}
 	.m i{
 		color: orange;
 	}
 	.m h1{
-		font-size: 22px;
+		font-size: 24px;
 		color: orange;
 		
+	}
+	.m p{
+		font-size: 18px;
 	}
 	.btn2{
 		margin-top: -19px;
@@ -483,9 +486,12 @@ margin-left: 40px;
 		color: orange;
 	}
 	.m h1{
-		font-size: 22px;
+		font-size: 25px;
 		color: orange;
 		
+	}
+	.m p{
+		font-size: 18px;
 	}
 	.btn2{
 		margin-top: -19px;
@@ -538,12 +544,13 @@ margin-left: 40px;
 	.m h1{
 		font-size: 22px;
 		color: orange;
-		
+	}
+	.m p{
+		font-size: 18px;
 	}
 	.btn2{
 		margin-top: -19px;
-	margin-left: 20px;
-	
+		margin-left: 20px;
 	}
 	.btn1{
 		margin-top: 10px;
@@ -640,6 +647,9 @@ margin-left: 40px;
 	.m{
 		line-height: 2;
 		padding: 0px 10px;
+	}
+	.m p{
+		font-size: 16px;
 	}
 	.m h1{
 		font-size: 22px;
